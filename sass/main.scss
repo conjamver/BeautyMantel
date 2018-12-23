@@ -1,0 +1,64 @@
+//color.scss
+@import '_color';
+
+//section welcome styling
+#section-homeBanner{
+    background-image: url(../img/makeup_hero_orange.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:440px;
+    color: $white;
+    padding: 5% 0%;
+    text-align: center;
+    h1{
+        font-size:48px;
+        margin-top:8%; //ensuring centered text
+    }
+    p{
+        font-size: 24px;
+    }
+ 
+}
+
+#section-recentPosts{
+    background-color:white;
+    color:black;
+    padding: 5% 0%;
+}
+#section-Account{
+    background-color:$primary;
+    color: $white;
+    padding: 5% 0%;
+    text-align: center;
+    h1{
+        font-size:48px;
+    }
+    input{
+        width:100%;
+        border-color:transparent;
+        padding:4px;
+        margin:4px;
+        border-radius:4px;
+    }
+}
+
+//Admin hub styling
+#section-adminHub{
+    background-color:$primary;
+    color: $white;
+    padding: 5% 0%;
+    text-align: left;
+    h1{
+        font-size:48px;
+    }
+    
+}
+
+//Footer styling
+footer{
+    background-color: $footerBG;
+    color:$white;
+    padding: 0.5% 0%;
+    
+}
